@@ -152,7 +152,7 @@ iframe {
 #quem-somos{
     font-family: Calistoga;
     font-size: 60px;
-    color: #ffffff;
+    color: black;
     margin: 0 auto;
     padding: 60px 0 40px 0;
 
@@ -163,9 +163,30 @@ iframe {
     justify-content: center;
     align-items: center;
     padding-bottom: 60px;
-    background-color: #3B8FB3;
 }
 
-#container-team info {
-    background-color: #c22121;
+#container-team .box{
+    background-color: #E3E8FF;;
+    margin: 1rem 2rem; 
+    padding: 0.2rem 0.7rem 3rem 0.7rem;
+    border-radius: 40px;
+    width: 20%;
+} 
+
+#container-team .box .name{
+    font-weight: bold;
+    margin-top: 0.7rem;
+}
+
+#container-team .box p {
+    padding-bottom: 1.4rem;
+}
+
+#container-team .info {
+    font-family: Open Sans;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
