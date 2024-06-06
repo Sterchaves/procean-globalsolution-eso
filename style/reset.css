@@ -22,3 +22,10 @@ ul{
 img{
     max-width: 100%;
 }
+
+.main-logo{
+    font-family: Calistoga;
+    font-size: 28px;
+    color: #E3E8FF;
+    margin-top: 1rem;
+}

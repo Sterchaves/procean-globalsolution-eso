@@ -17,8 +17,9 @@ main {
 }
 
 .cellphone h1 {
+  font-family: Calistoga;
   padding-bottom: 0.2rem;
-  padding-top: 15px;
+  padding-top: 1.5rem;
   margin-top: 1rem;
   justify-self: end;
 }
