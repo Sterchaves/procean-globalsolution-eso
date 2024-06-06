@@ -79,4 +79,6 @@ margin-bottom: 20px;
     justify-content: flex-start;
     align-items: center;
     margin: 20px 10px 0 30px;
+    width: 65%;
+    padding-right: 2rem;
 }
