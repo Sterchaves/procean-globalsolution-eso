@@ -48,6 +48,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 8vh 5vh 10vh 34vh;
+    text-align: justify;
 }
 
 #content-intro h2 {
@@ -81,11 +82,17 @@ main {
 
 /* VIDEO */
 
-iframe {
+/* iframe {
     background-color: black;
     width: 700px;
     height: 300px;
     margin: 80px 30px 80px 0;
+} */
+
+iframe{
+    width:548.6px;
+    height:308.6px;
+    
 }
 
 #container-video {
@@ -93,23 +100,26 @@ iframe {
     width: 1100px;
     height: 500px;
     display: flex;
-    justify-self: center;
-    align-self: space-between;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     padding: 0 20px 0 40px;
     border-radius: 40px;
 }
 
+
 #container-video #text-video {
     background-color: #ffffff;
     color: #0F2167;
     width: 50%;
-    padding: 5vh;
+    padding: 3rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+    text-align: justify;
 }
 
 #container-video #text-video h2 {
@@ -151,10 +161,10 @@ iframe {
 /* NÓS SOMOS */
 #quem-somos{
     font-family: Calistoga;
-    font-size: 60px;
+    font-size: 4rem;
     color: black;
     margin: 0 auto;
-    padding: 60px 0 40px 0;
+    padding: 4.5rem 0 3rem 0;
 
 }
 
@@ -163,6 +173,7 @@ iframe {
     justify-content: center;
     align-items: center;
     padding-bottom: 60px;
+    text-align: justify;
 }
 
 #quem-somos {
@@ -172,14 +183,15 @@ iframe {
 #container-team .box{
     background-color: #E3E8FF;
     margin: 1rem 2rem; 
-    padding: 0.2rem 0.7rem 3rem 0.7rem;
+    padding: 1.5rem 0.7rem 3rem 0.7rem;
     border-radius: 40px;
     width: 20%;
 } 
 
 #container-team .box .name{
     font-weight: bold;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 #container-team .box p {
